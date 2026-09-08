@@ -1,8 +1,14 @@
+import { NavLink } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav>
-      <h2>Navbar</h2>
-      <p>Navigation bar placeholder.</p>
+      <h2>Job Portal</h2>
+
+      <NavLink to="/">Home</NavLink>{" "}
+      <NavLink to="/dashboard">Dashboard</NavLink>{" "}
+      <NavLink to="/profile">Profile</NavLink>{" "}
+      <NavLink to="/login">Login</NavLink>
     </nav>
   );
 }
