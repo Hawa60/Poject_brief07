@@ -54,3 +54,12 @@ Project_brief07/
 ├── .gitignore
 ├── package-lock.json
 └── README.md
+
+## Sprint 5 - Frontend Foundation
+
+### Frontend Setup
+
+Navigate to the client folder:
+
+```bash
+cd client
