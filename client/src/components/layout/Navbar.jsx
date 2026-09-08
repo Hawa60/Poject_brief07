@@ -2,13 +2,18 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav>
-      <h2>Job Portal</h2>
+    <nav className="navbar">
+      <div className="navbar-brand">
+        <span className="navbar-logo">JP</span>
+        <span>Job Portal</span>
+      </div>
 
-      <NavLink to="/">Home</NavLink>{" "}
-      <NavLink to="/dashboard">Dashboard</NavLink>{" "}
-      <NavLink to="/profile">Profile</NavLink>{" "}
-      <NavLink to="/login">Login</NavLink>
+      <div className="navbar-links">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/dashboard">Dashboard</NavLink>
+        <NavLink to="/profile">Profile</NavLink>
+        <NavLink to="/login">Login</NavLink>
+      </div>
     </nav>
   );
 }
